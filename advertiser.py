@@ -17,7 +17,7 @@ def adervrtise(gameId):
     }
 
     headers = {
-        'authorization': "Nzc3NDc4MDM4NTQzNDAwOTc0.YeWWyg.nJ9NYutCYg38SaKOGYw1FOXHvjg" #account token here
+        'authorization': "" #account token here
     }
     #hentai society
     r5 = requests.post('https://discord.com/api/v9/channels/894272415234945045/messages', headers=headers, json = jsonn)
